@@ -17,12 +17,27 @@ h2,
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display:inline-block;
+}
+
 header,
 footer {
     background-color: #202020;
     color: white;
 
 }
+
+/* links */
+a {
+    text-decoration: none;
+}
+
+
 
 header a {
     color:white;
@@ -32,6 +47,10 @@ header a {
     background-color: #bb0000;
     color: white;
     font-size: 1.5em;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 .reviews {
