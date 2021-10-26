@@ -17,6 +17,15 @@ h2,
     font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin-left: 25px;
+}
+
 nav ul {
     padding: 0px;
 }
@@ -41,12 +50,16 @@ a {
 
 header a {
     color:white;
+    padding: 10px;
 }
 
 .cta-button {
     background-color: #bb0000;
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
 }
 
 .active {
@@ -64,13 +77,17 @@ header a {
 .cta-button {
     background-color: #bb0000;
     color: white;
-    font-size: 1.5em;
+    font-size: 0.8em;
+    padding: 8px 30px ;
+    border-radius: 5px
 }
 
 .cta-sale {
     background-color: green;
     color: white;
-    font-size: 1.5em;
+    font-size: 0.8em;
+    padding: 8px 30px ;
+    border-radius: 5px
 }
 
 footer {
@@ -85,12 +102,26 @@ footer {
   background-position-x: right;
   background-position-y: bottom;
   min-height: 70vh;
+  position: relative;
 }
 
-.welcome img {
+.welcome_content {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 100px;
+}
+
+.selling.points {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.welcome.img {
     border-radius: 100px;
 }
 
-.review img {
+.review.img {
     border-radius: 50%;
 }
